@@ -105,19 +105,33 @@
 		<finalName>maven-web-app</finalName>
 		
 		<plugins>
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing -->
+                          <dependency>
+                             <groupId>org.apache.maven.plugin-testing</groupId>
+                               <artifactId>maven-plugin-testing</artifactId>
+                               <version>3.3.0</version>
+                                 <type>pom</type>
+			</dependency>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.6</version>
+				<version>2.9</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
+                               <!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing -->
+                      <dependency>
+                     <groupId>org.apache.maven.plugin-testing</groupId>
+                      <artifactId>maven-plugin-testing</artifactId>
+                <version>3.3.0</version>
+                <type>pom</type>
+                 </dependency>
 
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
-				<artifactId>jetty-maven-plugin</artifactId>
+	 			<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.2.11.v20150529</version>
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
