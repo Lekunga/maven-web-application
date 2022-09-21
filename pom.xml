@@ -77,13 +77,7 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
-		      <dependency>
-                         <groupId>org.apache.maven.plugin-testing</groupId>
-                      <artifactId>maven-plugin-testing</artifactId>
-                       <version>3.3.0</version>
-                       <type>pom</type>
-                 </dependency>
-
+		      
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
