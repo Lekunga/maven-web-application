@@ -105,13 +105,7 @@
 		<finalName>maven-web-app</finalName>
 		
 		<plugins>
-			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing -->
-                          <dependency>
-                             <groupId>org.apache.maven.plugin-testing</groupId>
-                               <artifactId>maven-plugin-testing</artifactId>
-                               <version>3.3.0</version>
-                                 <type>pom</type>
-			</dependency>
+	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -121,6 +115,7 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
+			<plugin>
                                <!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing -->
                       <dependency>
                      <groupId>org.apache.maven.plugin-testing</groupId>
