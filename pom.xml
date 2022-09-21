@@ -77,6 +77,12 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
+		      <dependency>
+                         <groupId>org.apache.maven.plugin-testing</groupId>
+                      <artifactId>maven-plugin-testing</artifactId>
+                       <version>3.3.0</version>
+                       <type>pom</type>
+                 </dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -116,14 +122,9 @@
 				</configuration>
 			</plugin>
 			<plugin>
-                               <!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing -->
-                      <dependency>
-                     <groupId>org.apache.maven.plugin-testing</groupId>
-                      <artifactId>maven-plugin-testing</artifactId>
-                <version>3.3.0</version>
-                <type>pom</type>
-                 </dependency>
-
+                              
+                   
+                     
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 	 			<artifactId>jetty-maven-plugin</artifactId>
