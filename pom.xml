@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>1.0 SNAPSHOT</version> 
+	<version>1.0</version> 
 	
 	<name>maven-web-application</name>
 
@@ -90,13 +90,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.204.199.163:8081/repository/tesla-production/</url>
+	      <url>http://44.211.223.92:4000/repository/ebay-bs-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.211.223.92:4000/repository/ebay-bts-snapshot/</url>
+	      <url>http://44.211.223.92:4000/repository/ebay-bs-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
