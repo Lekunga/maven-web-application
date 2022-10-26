@@ -90,13 +90,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.175.153.41:4000/repository/ebay-ci-releases/</url>
+	      <url>http://3.84.145.223:4000/repository/boa-payment-automation-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.175.153.41:4000/repository/ebay-ci/</url>
+	      <url>http://3.84.145.223:4000/repository/boa-payment-automation-snapshop/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
